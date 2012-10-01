@@ -7,6 +7,6 @@
 	<classpathentry kind="lib" path="/Library/android-sdk-mac_x86/add-ons/addon_google_apis_google_inc_7/libs/maps.jar"/>
 	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar"/>
 	<classpathentry kind="lib" path="/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/js.jar"/>
-	<classpathentry kind="lib" path="lib/MedibaAdSDK.jar"/>
+	<classpathentry kind="lib" path="/Users/nari/Documents/workspace/TiMedibaad4Android/lib/MedibaAdSDK-1.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

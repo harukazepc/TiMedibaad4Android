@@ -10,7 +10,6 @@ package tv.harukaze.ti.medibaad.android;
 
 import org.appcelerator.kroll.annotations.Kroll;
 
-import org.appcelerator.titanium.TiContext;
 import org.appcelerator.titanium.view.TiUIView;
 import org.appcelerator.titanium.proxy.TiViewProxy;
 
@@ -25,8 +24,8 @@ public class MedibaadViewProxy extends TiViewProxy
 	private MedibaadView medibaadView;
 	
 	// Constructor
-	public MedibaadViewProxy(TiContext tiContext) {
-		super(tiContext);
+	public MedibaadViewProxy() {
+		super();
 	}
 
 	@Override

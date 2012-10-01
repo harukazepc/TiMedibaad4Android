@@ -21,7 +21,7 @@ public class MedibaadView extends TiUIView
 	// Constructor
 	public MedibaadView(final TiViewProxy proxy) {
 		super(proxy);
-	    mad = new MasAdView(proxy.getContext());
+	    mad = new MasAdView(proxy.getActivity());
 	    mad.setAuid(Timedibaad4androidModule.AUID);
 	    mad.start();
 //	    layout.addView(mad);

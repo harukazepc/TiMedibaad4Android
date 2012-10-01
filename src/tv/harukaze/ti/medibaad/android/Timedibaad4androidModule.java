@@ -11,7 +11,6 @@ package tv.harukaze.ti.medibaad.android;
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 
-import org.appcelerator.titanium.TiContext;
 import org.appcelerator.titanium.util.Log;
 import org.appcelerator.titanium.util.TiConfig;
 
@@ -25,8 +24,8 @@ public class Timedibaad4androidModule extends KrollModule
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 	
-	public Timedibaad4androidModule(TiContext tiContext) {
-		super(tiContext);
+	public Timedibaad4androidModule() {
+		super();
 	}
 
 	// Methods
